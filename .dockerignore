@@ -1,0 +1,60 @@
+# Node modules
+node_modules
+**/node_modules
+
+# Build outputs
+dist
+build
+**/dist
+**/build
+
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode
+.idea
+.cursor
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (don't copy to image, will be mounted)
+backend/data/recordings/*
+backend/data/metadata.json
+backend/data/sessions.json
+backend/data/users.json
+
+# Frontend dev
+frontend/dist
+frontend/node_modules
+
+# Backend dev
+backend/dist
+backend/node_modules
+
+# Documentation
+README.md
+
+# Scripts (not needed in image)
+scripts/
+
+# Docker files themselves
+Dockerfile*
+.dockerignore
+docker-compose*.yml

@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+
+# Cursor IDE
+.cursor/
+
+# Environment variables
+.env
+frontend/.env
+backend/.env
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Recordings (data files)
+backend/data/recordings/*
+!backend/data/recordings/.gitkeep
